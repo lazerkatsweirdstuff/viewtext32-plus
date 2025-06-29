@@ -1,15 +1,22 @@
 {
     "name": "viewtext32-plus",
-    "description": "Kitronik VIEWTEXT32 extension with custom character support",
+    "version": "1.1.0",
+    "description": "mor blocs",
+    "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "main.ts",
         "README.md",
-        "_locales/zh/viewtext32-plus-strings.json"
+        "main.ts"
     ],
     "public": true,
-    "version": "1.1.0",
-    "license": "MIT"
+    "targetVersions": {
+        "target": "4.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
