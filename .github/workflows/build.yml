@@ -1,0 +1,13 @@
+name: MakeCode Extension CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: build
+        uses: microsoft/pxt-action@v0.0.1
+        with:
+          target: microbit
